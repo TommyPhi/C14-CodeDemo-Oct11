@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(90deg, rgb(29, 144, 139) 0%, rgb(48, 55, 141) 100%);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backbtn {
+    margin: 25px;
+    padding: 15px 30px;
+    color: white;
+    background: linear-gradient(90deg, rgb(29, 144, 139) 0%, rgb(48, 55, 141) 100%);
+    border: none;
+    border-radius: 5px;
+    border: 2px white solid;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.backbtn:hover {
+    background: white;
+    color:#27648c;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, rgb(29, 144, 139) 0%, rgb(48, 55, 141) 100%) border-box;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main h1 {
+    /* CSS for h1 tags in Header */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48pt;
+    margin-bottom: 100px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 235px);
+    grid-template-rows: repeat(1, 350px);
+    gap: 10px;
+    margin: 10px 5px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px white solid;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card:hover {
+    border: 2px white solid;
+    background-color: white;
+    color: #27648c;
+    transition: all 0.5s;
+}
