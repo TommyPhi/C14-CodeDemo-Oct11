@@ -1,4 +1,5 @@
 body {
+    /* CSS for Body */
     background: linear-gradient(90deg, rgb(29, 144, 139) 0%, rgb(48, 55, 141) 100%);
     margin: 0;
     padding: 0;
@@ -7,12 +8,14 @@ body {
 }
 
 #main-container {
+    /* CSS for main content container in index.html */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .backbtn {
+    /* CSS for Back Button on content pages */
     margin: 25px;
     padding: 15px 30px;
     color: white;
@@ -25,6 +28,7 @@ body {
 }
 
 .backbtn:hover {
+    /* Hover CSS for back button */
     background: white;
     color:#27648c;
     background: linear-gradient(white, white) padding-box,
@@ -35,6 +39,7 @@ body {
 }
 
 main {
+    /* CSS for Main CSS */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +47,7 @@ main {
 }
 
 a {
+    /* CSS for <a> text */
     text-decoration: none;
     color: white;
 }
@@ -52,10 +58,19 @@ main h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 48pt;
+    margin-bottom: 0;
+}
+
+main h3 {
+    /* CSS for h1 tags in Header */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     margin-bottom: 100px;
 }
 
 .card-container {
+    /* CSS for entire card container in index.html */
     display: grid;
     grid-template-columns: repeat(4, 235px);
     grid-template-rows: repeat(1, 350px);
@@ -64,6 +79,7 @@ main h1 {
 }
 
 .card {
+    /* CSS for each card in card container */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,8 +89,40 @@ main h1 {
 }
 
 .card:hover {
+    /* CSS for card hover */
     border: 2px white solid;
     background-color: white;
     color: #27648c;
     transition: all 0.5s;
+}
+
+.content-container {
+    /* CSS for all content containers */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-container p, li {
+    /* CSS for text inside content containers */
+    color: white;
+    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 50px;
+}
+
+.content-container p {
+    /* CSS specific for p tags in content containers */
+    width: 40%;
+}
+
+.sub-content-container {
+    /* CSS for sub-content containers */
+    display: inline-flex;
+}
+
+.sub-content-container img {
+    /* CSS for images in sub-content-containers */
+    align-self: center;
 }
