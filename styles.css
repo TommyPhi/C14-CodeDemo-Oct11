@@ -14,12 +14,18 @@ body {
     align-items: center;
 }
 
-.backbtn {
-    /* CSS for Back Button on content pages */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    /* CSS for Buttons on content pages */
     margin: 25px;
     padding: 15px 30px;
     color: white;
-    background: linear-gradient(90deg, rgb(29, 144, 139) 0%, rgb(48, 55, 141) 100%);
+    /* background: linear-gradient(90deg, rgb(29, 144, 139) 0%, rgb(48, 55, 141) 100%); */
+    background: none;
     border: none;
     border-radius: 5px;
     border: 2px white solid;
@@ -27,7 +33,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.backbtn:hover {
+.btn:hover {
     /* Hover CSS for back button */
     background: white;
     color:#27648c;
@@ -58,14 +64,6 @@ main h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 48pt;
-    margin-bottom: 0;
-}
-
-main h3 {
-    /* CSS for h1 tags in Header */
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
     margin-bottom: 100px;
 }
 
