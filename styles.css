@@ -70,7 +70,7 @@ main h1 {
 .card-container {
     /* CSS for entire card container in index.html */
     display: grid;
-    grid-template-columns: repeat(4, 235px);
+    grid-template-columns: repeat(2, 435px);
     grid-template-rows: repeat(1, 350px);
     gap: 10px;
     margin: 10px 5px;
